@@ -1,0 +1,138 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "code": "ONE",
+      "name": "Book ONE",
+      "description": "This is the description of Book ONE",
+      "author_id": 10,
+      "author_name": "James Hansen",
+      "category_id": 50,
+      "created_date": "07/09/2051",
+      "end_date": "2051-10-19T21:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "code": "TWO",
+      "name": "Book TWO",
+      "description": "This is the description of Book TWO",
+      "author_id": 10,
+      "author_name": "James Hansen",
+      "category_id": 50,
+      "created_date": "24/10/2051",
+      "end_date": "2051-11-18T21:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "code": "THREE",
+      "name": "Book THREE",
+      "description": "This is the description of Book THREE",
+      "author_id": 10,
+      "author_name": "James Hansen",
+      "category_id": 51,
+      "created_date": "29/10/2051",
+      "end_date": "2051-11-30T21:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "code": "FOUR",
+      "name": "Book FOUR",
+      "description": "This is the description of Book FOUR",
+      "author_id": 11,
+      "author_name": "Louise Meyer",
+      "category_id": 50,
+      "created_date": "30/10/2051",
+      "end_date": "2051-12-07T21:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "code": "FIVE",
+      "name": "Book FIVE",
+      "description": "This is the description of Book FIVE",
+      "author_id": 11,
+      "author_name": "Louise Meyer",
+      "category_id": 52,
+      "created_date": "02/10/2051",
+      "end_date": "2051-11-15T21:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "code": "SIX",
+      "name": "Book SIX",
+      "description": "This is the description of Book SIX",
+      "author_id": 14,
+      "author_name": "Clyde Dorman",
+      "category_id": 53,
+      "created_date": "09/11/2051",
+      "end_date": "2051-12-22T21:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "code": "SEVEN",
+      "name": "Book SEVEN",
+      "description": "This is the description of Book SEVEN",
+      "author_id": 14,
+      "author_name": "Clyde Dorman",
+      "category_id": 53,
+      "created_date": "09/12/2051",
+      "end_date": "2051-12-22T21:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "code": "EIGHT",
+      "name": "Book EIGHT",
+      "description": "This is the description of Book EIGHT",
+      "author_id": 11,
+      "author_name": "Louise Meyer",
+      "category_id": 53,
+      "created_date": "09/14/2051",
+      "end_date": "2051-12-23T21:00:00.000Z"
+    },
+    {
+      "id": 9,
+      "code": "NINE",
+      "name": "Book NINE",
+      "description": "This is the description of Book NINE",
+      "author_id": 10,
+      "author_name": "James Hansen",
+      "category_id": 54,
+      "created_date": "09/16/2051",
+      "end_date": "2051-12-23T21:00:00.000Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 10,
+      "name": "James Hansen"
+    },
+    {
+      "id": 11,
+      "name": "Louise Meyer"
+    },
+    {
+      "id": 12,
+      "name": "Todd Fields"
+    },
+    {
+      "id": 13,
+      "name": "Scott Link"
+    },
+    {
+      "id": 14,
+      "name": "Clyde Dorman"
+    },
+    {
+      "email": "user@mail.comm",
+      "password": "$2a$10$nPI4.acMOsL.j8iaVZwtHeaRwTHwsT72ePFFBxGJQ72LELoUsTKEO",
+      "pass": "1234",
+      "id": 16
+    },
+    {
+      "email": "admin@mail.comm",
+      "password": "$2a$10$.ZF7GezzVf6E88DhkwhCReqfb/pFu/1qXVwrs2eRWfw9rrEJ57mZi",
+      "pass": "4321",
+      "admin": true,
+      "id": 17
+    }
+  ]
+}

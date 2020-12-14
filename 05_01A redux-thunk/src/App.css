@@ -1,0 +1,120 @@
+html{
+  position:relative; 
+  min-height: 100%;
+}
+
+html, body, main {
+  display: block;
+  color: #333;
+  background: #fff;
+  width: 100%;
+  height: calc(100% - 3em);
+  margin: 0;
+  z-index: 5;
+}
+
+ main.content {
+  background: #fff;
+  text-align: left;
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 80px 0 0;
+}    
+
+main.content {
+  padding-bottom:3em;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  transition: height 999999s;
+  text-align: center;
+  min-height: 300px;
+  color: white;
+  padding: 1px 0;
+  margin-top: 3em;;
+  /* background: #b9dbff url(/img/optimised.svg) no-repeat 50% center scroll; */
+  /* background-size: cover; */
+  background-color: coral;
+}
+
+.hero h1 {
+  font-size: 3em;
+  line-height: 1;
+  padding: 0;
+}
+
+.hero .content {
+  position: relative;
+  top: 45%;
+  transform: translateY(-50%);
+}
+
+.pageContentWrapper{
+  margin-bottom:3em;/* Height of footer*/
+} 
+
+.footer{
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:3em;
+    border-top:1px solid coral;
+    text-align: center;
+}
+
+.footer div {
+  padding-top: 1rem;;
+}
+
+
+/* books */
+
+.book-list {
+  margin-top: 2rem;
+}
+
+.book-list > div {
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  padding-left: .6em;
+  padding-bottom: .6em;
+}
+
+.book-list > * > span {
+  display: block;
+  padding: .6em 0;
+  background: #2ecc40;
+  text-align: center;
+}
+
+ 
+/* Login */
+.login {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  transition: height 999999s;
+  text-align: center;
+  min-height: 300px;
+  padding: 1px 0;
+  margin-top: 3em;;
+}
+
+.login .content {
+  position: relative;
+  top: 45%;
+  transform: translateY(-50%);
+}
+
+.login label  {
+  display: inline-block;
+  margin-top: 1rem;
+  width: 100%;
+}
+

@@ -1,0 +1,21 @@
+
+json-server-auth --port 3344 db-auth.1.json
+
+users:
+
+    {
+      "email": "user@mail.comm",
+      "password": "$2a$10$nPI4.acMOsL.j8iaVZwtHeaRwTHwsT72ePFFBxGJQ72LELoUsTKEO",
+      "pass": "1234",
+      "id": 16
+    },
+    {
+      "email": "admin@mail.comm",
+      "password": "$2a$10$.ZF7GezzVf6E88DhkwhCReqfb/pFu/1qXVwrs2eRWfw9rrEJ57mZi",
+      "pass": "4321",
+      "admin": true,
+      "id": 17
+    }
+
+
+
